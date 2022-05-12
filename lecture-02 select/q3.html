@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* children selctor*/
+        div>p>span{
+            color: blue;
+
+        }
+        div>span>p>span{
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <!-- select "iam direct son and make it blue"-->
+    <div>
+        <p>
+            <span>iam the direct son </span>
+            </p>
+            <div>
+            <span>i am indirect son </span>
+            </p>
+
+            </div>
+        </p>
+    </div>
+</body>
+</html>
